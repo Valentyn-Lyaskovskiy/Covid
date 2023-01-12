@@ -19,6 +19,7 @@
 //   return `${sum / arr.length}`;
 // };
 
+
 // console.log(
 //   Math.trunc(calcAvg(bills)),
 //   Math.trunc(calcAvg(tips)),
