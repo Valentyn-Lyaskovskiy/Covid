@@ -426,6 +426,9 @@ ol {
   position: relative;
   padding: 0 0 34% 0;
   flex: 0 1 50%;
+  box-shadow: 0px 4px 18px rgba(88, 126, 236, 0.18);
+  border-radius: 8px;
+  overflow: hidden;
 }
 
 .talk__video iframe {
@@ -439,4 +442,77 @@ ol {
 
 .talk__text-block {
   max-width: 393px;
+}
+
+/*     Finger     */
+
+.finger {
+  padding: 80px 0 41px 0;
+}
+
+.finger__wrapper {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 47px;
+}
+
+.finger__items {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-bottom: 71px;
+}
+
+.finger-text-block {
+  max-width: 769px;
+  text-align: center;
+}
+
+.mb {
+  margin-bottom: 14px !important;
+}
+
+.item-finger__icon:not(:last-child) {
+  margin-bottom: 58px;
+}
+
+.item-finger__title {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 138.5%;
+  text-align: center;
+  letter-spacing: 0.08em;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #000000;
+}
+
+.item-finger__title:not(:last-child) {
+  margin-bottom: 4px;
+}
+
+.item-finger__text {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 138.5%;
+  text-align: center;
+  letter-spacing: 0.08em;
+  color: #616161;
+}
+
+/*      Footer    */
+
+.footer {
+  padding: 0 0 47px 0;
+}
+
+.footer__icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 57px;
 }
