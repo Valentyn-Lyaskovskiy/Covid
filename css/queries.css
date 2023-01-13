@@ -1,8 +1,20 @@
 /* PC */
 
-@media (max-width: 1082px) {
+@media (max-width: 1240px) {
   [class*="_container"] {
-    max-width: 970px;
+    max-width: 1100px;
+  }
+
+  .finger__items {
+    flex-direction: column;
+    display: inline-block;
+    align-items:center;
+    display: flex;
+    width: 100%;
+  }
+
+  .finger__text-block {
+    margin-bottom: 52px;
   }
 }
 
@@ -221,11 +233,20 @@
   }
 
   .talk {
-    padding: 54px 0 56px 0;
+    padding: 0;
   }
 
   .talk-decor__box-item:not(:last-child) {
     margin: 0 0 15px 0;
   }
 
+  .footer__icons {
+    gap: 22px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .finger {
+    padding: 0;
+  }
 }

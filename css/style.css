@@ -519,7 +519,9 @@ ol {
 }
 
 .finger__wrapper_1::after, 
-.finger__wrapper_1::before {
+.finger__wrapper_3::after, 
+.finger__wrapper_1::before,
+.finger__wrapper_2::after {
   position: absolute;
   background:#ec5863;
   content: '';
@@ -542,6 +544,25 @@ ol {
   top: 50px;
   right: -50px;
 }
+
+.finger__wrapper_2::after {
+  width: 128px;
+  height: 128px;
+  transform: rotate(-30deg);
+  border-radius: 30px;
+  bottom: -36px;
+  right: -94px;
+}
+
+.finger__wrapper_3::after {
+  border-radius: 16px;
+  right: -25px;
+  top: -30px;
+  width: 66px;
+  height: 66px;
+  transform: rotate(-30deg);
+}
+
 /*      Footer    */
 
 .footer {
@@ -553,5 +574,6 @@ ol {
   justify-content: center;
   align-items: center;
   gap: 57px;
+  padding: 10px;
 }
 
